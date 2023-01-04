@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items > li {
+    padding: 5px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.body-items {
+    text-align: center;
+    background-color: lightgray;
+}
+
+.img-style {
+    width: 40px;
+    height: 40px;
+}
+
+body {
+    background-color: darkgray;
+}

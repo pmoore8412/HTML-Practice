@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/formStyle.css">
+        <link rel="stylesheet" href="./css/index.css">
+        <script src="./js/registrationValid.js"></script>
+        <title>Book Club Registration</title>
+    </head>
+
+    <body>
+        <header>
+            <nav class="nav">
+                <h3>Book Club</h3>
+                <ul class="nav-items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="userLogin.html">Login</a></li>
+                    <li> <a href="bookClubRegister.html">Register</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="body-items">
+            <h1><img class="img-style" src="./img/Book.jpg" alt="book"> Book Club Registration Form <img class="img-style" src="./img/Book.jpg" alt="book"></h1>
+            <form name="registrationForm" id="registrationForm" >
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName" placeholder="First Name">
+
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Password">
+
+                <button type="submit" onclick="return isRegistraionValid()">Register</button>
+            </form>
+        </div>
+        <div class="body-items" id="show">
+
+        </div>
+    </body>
+</html>

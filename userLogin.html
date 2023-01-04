@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/formStyle.css">
+        <link rel="stylesheet" href="./css/index.css">
+        <script src="./js/loginValid.js"></script>
+        <title>Book Club Login</title>
+    </head>
+
+    <body>
+        <header class="header">
+            <nav class="nav">
+                <h3>Book Club</h3>
+                <ul class="nav-items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="userLogin.html">Login</a></li>
+                    <li> <a href="bookClubRegister.html">Register</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="body-items">
+            <h1><img class="img-style" src="./img/Book.jpg" alt="book"> Book Club Login <img class="img-style" src="./img/Book.jpg" alt="book"></h1>
+            <form name="loginForm" id="loginForm" onsubmit="return isLoginValid()">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Password">
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </body>
+</html>
