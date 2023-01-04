@@ -16,6 +16,7 @@ function isLoginValid() {
     }
     
     alert("Login Successfull")
+    event.preventDefault();
     return window.location.replace("/bookClubMain.html");
     
 }

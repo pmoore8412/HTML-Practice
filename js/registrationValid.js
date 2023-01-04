@@ -25,6 +25,7 @@ function isRegistraionValid() {
     }
 
     alert("Registration Successfull");
-    return document.getElementById("show").innerHTML = firstName + "<br>" + lastName + "<br>" + email;
+    event.preventDefault();
+    return document.getElementById("show").innerHTML = firstName + " " + lastName + "<br>" + email;
 
 }
